@@ -1,0 +1,5 @@
+name: audit-auction
+version: 0.0.1
+
+plugins:
+    vyper: 0.1.0a5
