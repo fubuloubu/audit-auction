@@ -23,7 +23,7 @@ jobs:
       run: pip install -r requirements.txt
       
     - name: Install ape plugins
-      run: ape plugins install
+      run: ape plugins install -y
 
     - name: Compile Code
       run: ape compile --size
