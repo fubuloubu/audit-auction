@@ -20,7 +20,7 @@ jobs:
         python-version: 3.8
 
     - name: Install python dependencies
-      run: pip install -r requirements-dev.txt
+      run: pip install -r requirements.txt
 
     - name: Compile Code
       run: ape compile --size
